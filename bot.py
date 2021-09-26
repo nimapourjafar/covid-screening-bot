@@ -19,4 +19,6 @@ travel.select_by_visible_text('No')
 child = Select(drive.find_element_by_id('RESULT_RadioButton-10'))
 child.select_by_visible_text('No')
 time.sleep(2)
+# submit form button
+# drive.find_element_by_id('FSsubmit').click()
 drive.quit()
